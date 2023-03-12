@@ -1,7 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -15,15 +12,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+
+  import secops from "/secops.png";
+  import cerritus from "/cerritus.png";
   
   export const navLinks = [
     {
@@ -112,57 +108,28 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "SecOps Solutions",
+      icon: secops,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "March 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using Angular and other related technologies.",
+        "Implementing various designs and ensuring cross-browser compatibility.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Community Manager",
+      company_name: "Cerritus Coders",
+      icon: cerritus,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintaining Cerritus Coder's website using React.js and Bootstrap.",
+        "Participating in varius community and non community events like technical meetups and Global Hack Weeks.",
       ],
     },
+    
   ];
   
   const testimonials = [
