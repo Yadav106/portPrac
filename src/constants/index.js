@@ -85,7 +85,7 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
   ];
